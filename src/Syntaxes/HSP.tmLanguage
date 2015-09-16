@@ -28,6 +28,14 @@
 		</dict>
 		<dict>
 			<key>begin</key>
+			<string>\{"</string>
+			<key>end</key>
+			<string>"\}</string>
+			<key>name</key>
+			<string>string.block.hsp</string>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>"</string>
 			<key>beginCaptures</key>
 			<dict>
