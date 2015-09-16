@@ -28,14 +28,6 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>'</string>
-			<key>end</key>
-			<string>'</string>
-			<key>name</key>
-			<string>string.quoted.single.hsp</string>
-		</dict>
-		<dict>
-			<key>begin</key>
 			<string>"</string>
 			<key>beginCaptures</key>
 			<dict>
@@ -66,6 +58,34 @@
 					<string>constant.character.escape.hsp</string>
 				</dict>
 			</array>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.hsp</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>constant.character.escape.hsp</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.hsp</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(?x)
+			(')
+			(?:[\ -\[\]-~] | (\\(?:[nrt\\\"'])))
+			(')
+			</string>
+			<key>name</key>
+			<string>string.quoted.single.hsp</string>
 		</dict>
 		<dict>
 			<key>match</key>
