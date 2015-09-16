@@ -96,6 +96,25 @@
 			<string>string.quoted.single.hsp</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.statement.hsp</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>constant.label.hsp</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(?:[\.\(=,]|(?:^|[:\{\}])(?:[ \t]*\b(\w+)\b)?)[ \t]*(\*(?:\w|@)+)</string>
+			<key>name</key>
+			<string>meta.label.definition.hsp</string>
+		</dict>
+		<dict>
 			<key>match</key>
 			<string>comevdisp</string>
 			<key>name</key>
