@@ -14,7 +14,7 @@
 			<key>comment</key>
 			<string>Line Comment</string>
 			<key>match</key>
-			<string>//.*</string>
+			<string>(?://|;).*</string>
 			<key>name</key>
 			<string>comment.line.hsp</string>
 		</dict>
