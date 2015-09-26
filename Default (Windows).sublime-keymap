@@ -1,0 +1,5 @@
+[
+    { "keys": ["f1"], "command": "hdl_search", "context":
+        [{ "key": "selector", "operator": "equal", "operand": "source.hsp" }]
+    }
+]
