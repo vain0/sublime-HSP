@@ -1,5 +1,5 @@
 {
-    "cmd": ["sthspcmp", "$file"],
+    "cmd": ["chspcmp", "/wid", "$file"],
     "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
     "selector": "source.hsp"
 }
